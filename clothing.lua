@@ -952,7 +952,7 @@ end
 
 function Notify(message) -- However you want your notifications to be shown, you can switch it up here.
 	lib.notify({
-		title = 'Clothing System',
+		title = 'Clothing',
 		description = message,
 		type = 'inform'
 	})
