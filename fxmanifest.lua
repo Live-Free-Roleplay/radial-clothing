@@ -7,10 +7,11 @@ description 'This is a radial Menu based on ox_lib with a functional clothing me
 version '1.0.0'
 
 shared_scripts {
-    '@ox_lib/init.lua',
+	'@ox_lib/init.lua',
 	'config.lua',
 }
 
 client_scripts {
 	'clothing.lua',
+	'client.lua',
 }

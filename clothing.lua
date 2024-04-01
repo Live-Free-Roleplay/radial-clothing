@@ -954,7 +954,7 @@ function Notify(message) -- However you want your notifications to be shown, you
 	lib.notify({
 		title = 'Clothing',
 		description = message,
-		type = 'inform'
+		type = 'error'
 	})
 	--ESX.ShowNotification(message, color)
 end
